@@ -1,7 +1,7 @@
 FROM python:3.11-slim
 
-WORKDIR /website_script
+WORKDIR /backend_script
 
-COPY website_script.py .
+COPY backend_script.py .
 
-CMD ["python3","website_script.py"]
+CMD ["python3","backend_script.py"]
